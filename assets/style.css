@@ -20,34 +20,16 @@ body{
     color: rgb(105, 13, 70);
   }
   
-  p{
-    text-align: justify;
-    /*font-family:courier;
-    font-size: 10%;
-    */
-    text-indent: 200%;
-    font-family:verdana;
-  }  
-  
-   
-   
    
    #header_common{
-      width:400px; height:150px; 
+      width:350px; height:150px; 
       margin-left: auto ; margin-right: auto ; 
       background-color:#FFEEDD;
     }
   
-   #footer_common{
-      width:960px; height:100px;
-      margin-left: auto ; margin-right: auto ; 
-      border-radius: 25px; border: 2px solid #73AD21;
-      padding: 20px;
-      background-color:#112233;
-    }
   
    #topic_container{
-      width:360px; height:auto; 
+      width:310px; height:auto; 
       margin: auto;
     padding: 20px;
     text-align: center; 
@@ -57,37 +39,6 @@ body{
       background-color:#dddddd; */
     }
   
-    #proj_lst_cont {
-      width: 175px; height: auto;
-      border-radius: 25px;
-      border: 2px solid #5f0b46;
-      margin-top: 10px;
-      padding: 10px;
-    }
-  
-  
-    .vdo_lst_cont {
-      width: 160px; height: auto;
-      border-radius: 25px;
-      border: 2px solid #73AD21;
-      padding: 5px;
-      margin-top: 10px;
-    }
-  
-  
-    .box_ckt_diag {
-      width: 100%; height: auto;
-      margin: auto;
-  /*		border: 2px dashed #f7a239; */
-    }
-  
-    .prog_cont{
-      width: 500px; height: 500px;
-      border-radius: 25px;
-      border: 1px solid #210f22;
-      padding: 10px;
-      margin: auto;
-    }
   
     .capt_cont{
       width: auto; height: auto;
@@ -108,186 +59,5 @@ body{
           width: 50%;
           height: auto;
         }
-    .box_70 {
-          width: 70%;
-          height: auto;
-        }
-  
-    .box_80 {
-          width: 80%;
-          height: auto;
-        }
-  
-  
-  
-  
-    #box_this_lesson {
-          width: 100%;
-          height: 250px;
-          background-color:#3399ff;
-        }
-  
-        img {
-          width: 100%;
-          height: 100%;
-        }
-   
-  .inside {
-    list-style-position: inside;
-    list-style-type: square;
-  }
-  
-  .outside {
-    list-style-position: outside;
-    list-style-type: circle;
-  }
-  
-  .inside-img {
-    list-style-position: inside;
-    list-style-image: url("https://mdn.mozillademos.org/files/11979/starsolid.gif");
-  }
-  
-  
-  ul{
-  list-style-type: circle;
-  padding: 0;
-  margin: 0;
-  text-align: left;
-  }
-  
-  li
-  {
-  background-image: url(arrow.gif);
-  background-repeat: no-repeat;
-  background-position: 100% .4em;
-  padding-right: .6em;
-  }
-  
-  .surveyorderedlist{
-    ol{
-        list-style-position: outside;
-    }
-    li{
-        margin-bottom:5px;
-        margin-left:40px;
-        padding-left:8px;
-    }
-  }
-  
-  
-  
-  
-  
-  
-  #rcorners1 {
-    border-radius: 25px;
-    background: #73AD21;
-    padding: 20px;
-    width: 200px;
-    height: 150px;
-  }
-  
-  #rcorners2 {
-    border-radius: 25px;
-    border: 2px solid #73AD21;
-    padding: 20px;
-    width: 155px;
-    height: 850px;
-  }
-  
-  #rcorners2a {
-    border-radius: 25px;
-    border: 2px solid #73AD21;
-    padding: 20px;
-    width: 550px;
-    height: 50px;
-  }
-  
-  #rcorners3 {
-    border-radius: 25px;
-    background: url(paper.gif);
-    background-position: left top;
-    background-repeat: repeat;
-    padding: 20px;
-    width: 200px;
-    height: 150px;
-  }
-  
-  
-  .zoom {
-    background-color: white;
-    width: auto; height: auto;
-    margin: 0;
-    transition: transform ease-in-out 0.3s; /* Animation */
-  }
-  
-  .zoom:hover {
-    transform: scale(1.2); /* (150% zoom)*/
-  }
-  
-  .zoomBOut {
-    width: 600px; 
-    height: 338px;
-    overflow: hidden;
-    position: relative;
-  }
-  .zoomBIn {
-    width: 100%;
-    height: 100%;
-    background-image: url("music.jpg");
-    background-position: center;
-    background-size: cover;
-    transition: transform ease 0.3s;
-  }
-  
-  
-  
-  /*====================================================================================================*/
-  #wrp_prj_footer{width: 1000px; height: 250px;  margin-top: 50px ; margin-bottom: 50px ; margin-left: auto ; margin-right: auto ; border-top: 3px solid #888888;}
-  /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
-      .prj_footer_cell{width: 170px; height: 220px;  margin-left: 33px;  margin-top: 10px; padding: 5px ;  float: left; box-shadow: 0px 0px 9px rgba(200,70,100,0.1);}
-  /*====================================================================================================*/
-  #navcontainer
-  {
-  background: #f0e7d7;
-  width: 120px;
-  margin: 0 auto;
-  padding: .1em 0;
-  
-  font-family: georgia, serif;
-  font-size: 11px;
-  text-align: center;
-  }
-  
-  ul#navlist
-  {
-  text-align: left;
-  list-style: none;
-  padding: 0;
-  
-  width: 90%;
-  }
-  
-  ul#navlist li
-  {
-  display: block;
-  margin: 0;
-  padding: 0;
-  }
-  
-  ul#navlist li a
-  {
-  display: block;
-  width: 100%;
-  padding: 0.2em 0 0.2em 1em;
-  border-width: 1px;
-  border-color: #ffe #aaab9c #ccc #fff;
-  border-style: solid;
-  color: #777;
-  text-decoration: none;
-  background: #f7f2ea;
-  }
-  
-  #navcontainer>ul#navlist li a { width: auto; }
-  
+    
   
