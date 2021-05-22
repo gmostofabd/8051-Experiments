@@ -19,7 +19,12 @@ body{
     text-align: left;
     color: rgb(105, 13, 70);
   }
-  
+ 
+ img {
+      width: 100%;
+      height: 100%;
+  }
+
    
    #header_common{
       width:350px; height:150px; 
