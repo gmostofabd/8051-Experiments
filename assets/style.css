@@ -33,7 +33,7 @@ body{
    
    
    #header_common{
-      width:500px; height:150px; 
+      width:400px; height:150px; 
       margin-left: auto ; margin-right: auto ; 
       background-color:#FFEEDD;
     }
@@ -47,7 +47,7 @@ body{
     }
   
    #topic_container{
-      width:460px; height:auto; 
+      width:360px; height:auto; 
       margin: auto;
     padding: 20px;
     text-align: center; 
