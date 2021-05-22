@@ -2,7 +2,7 @@
  
 body{
     align-items: center;
-    background-color: rgb(206, 152, 152);
+    background-color: #ddd9b5ff;
   }
   
   h2{
@@ -40,8 +40,9 @@ body{
     text-align: center; 
       border-radius: 15px;
       border: 1px solid #2b2c29;
+    background-color:#ddd9b5ff;
   /*	border: 1px solid #73AD21;
-      background-color:#dddddd; */
+      background-color:#ddd9b5ff; */
     }
   
   
@@ -50,7 +51,7 @@ body{
       padding: 10px;
       text-align: center;
       color: rgb(112, 108, 108);
-      background-color: chocolate;
+      background-color: #ede8c2ff;
       border-bottom: 2px solid rgb(185, 169, 23);
     }
   
